@@ -1,0 +1,26 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "Ledgerstone Copilot",
+  "description": "stuff for me",
+  "image": "https://micahdfloyd.github.io/copilot/logo.png",
+  "services": [
+    {
+      "name": "web",
+      "endpoint": "https://micahdfloyd.github.io/copilot"
+    },
+    {
+      "name": "A2A",
+      "endpoint": "https://micahdfloyd.github.io/copilot/.well-known/agent-card.json"
+    }
+  ],
+  "x402Support": false,
+  "active": true,
+  "registrations": [
+    {
+      "agentRegistry": "eip155:8453:0x8004A169FB4a3325136EB29fA0ceB6D2e539a432"
+    }
+  ],
+  "supportedTrust": [
+    "reputation"
+  ]
+}
